@@ -9,3 +9,10 @@ test:
   encoding: unicode
   database: blueapron_store_test
   pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: blueapron_store
+  pool: 5
+  password: 
