@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.2'
-gem 'pg'
+
+gem 'pg'                                      # Require Postgres.
+gem 'rails_12factor', group: :production      # Required for Heroku Rails 3 asset pipeline.
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
